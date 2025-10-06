@@ -119,7 +119,7 @@ int main() {
 
     return 0;
 }
----
+```
 
 
 
@@ -136,5 +136,6 @@ Output:
 
 
 <img width="600" height="882" alt="image" src="https://github.com/user-attachments/assets/482cf0b6-46c1-40bd-9370-2158afc34697" />
+
 
 
