@@ -30,12 +30,13 @@ int main(){
         cout <<"Roll number :"<<arr_rrl[i_rrl].roll_no_rrl <<" "<< "Name :" << arr_rrl[i_rrl].name_rrl <<" "<< "Marks : " << arr_rrl[i_rrl].marks_rrl << endl;
     }
 
-    for(int i_rrl = 0; i_rrl < n_rrl; i_rrl++){
-        for (int j_rrl = i_rrl + 1; j_rrl < n_rrl; j_rrl++){
-            if (arr_rrl[i_rrl].roll_no_rrl > arr_rrl[j_rrl].roll_no_rrl){
-                student_rrl temp_rrl = arr_rrl[i_rrl];
-                arr_rrl[i_rrl] = arr_rrl[j_rrl];
-                arr_rrl[j_rrl] = temp_rrl;
+    // Bubble Sort logic
+    for(int i_rrl = 0; i_rrl < n_rrl - 1; i_rrl++){
+        for (int j_rrl = 0; j_rrl < n_rrl - i_rrl - 1; j_rrl++){
+            if (arr_rrl[j_rrl].roll_no_rrl > arr_rrl[j_rrl + 1].roll_no_rrl){
+                student_rrl temp_rrl = arr_rrl[j_rrl];
+                arr_rrl[j_rrl] = arr_rrl[j_rrl + 1];
+                arr_rrl[j_rrl + 1] = temp_rrl;
             }
         }
     }

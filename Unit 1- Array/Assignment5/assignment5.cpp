@@ -9,19 +9,16 @@ struct Element {
 };
 
 void fastTranspose(Element a[], Element b[], int rows, int cols, int nonZero) {
-    int colCount[cols] = {0};    // Number of non-zero elements in each column
-    int startPos[cols] = {0};    // Starting position of each column in transposed array
+    int* colCount = new int[cols]();
+    int* startPos = new int[cols]();
 
-    // Step 1: Count elements in each column
     for (int i = 0; i < nonZero; i++)
         colCount[a[i].col]++;
 
-    // Step 2: Compute starting positions
     startPos[0] = 0;
     for (int i = 1; i < cols; i++)
         startPos[i] = startPos[i - 1] + colCount[i - 1];
 
-    // Step 3: Fill transposed array
     for (int i = 0; i < nonZero; i++) {
         int pos = startPos[a[i].col];
         b[pos].row = a[i].col;
@@ -29,10 +26,12 @@ void fastTranspose(Element a[], Element b[], int rows, int cols, int nonZero) {
         b[pos].value = a[i].value;
         startPos[a[i].col]++;
     }
+
+    delete[] colCount;
+    delete[] startPos;
 }
 
 void printMatrix(int rows, int cols, Element arr[], int nonZero) {
-    int k = 0;
     for (int i = 0; i < rows; i++) {
         for (int j = 0; j < cols; j++) {
             bool found = false;
@@ -54,8 +53,8 @@ int main() {
     cout << "Enter number of rows, columns and non-zero elements: ";
     cin >> rows >> cols >> nonZero;
 
-    Element a[nonZero];   // Original sparse matrix
-    Element b[nonZero];   // Transposed sparse matrix
+    Element* a = new Element[nonZero];
+    Element* b = new Element[nonZero];
 
     cout << "Enter row, col, value of each non-zero element:\n";
     for (int i = 0; i < nonZero; i++)
@@ -68,6 +67,9 @@ int main() {
 
     cout << "\nFast Transposed Matrix:\n";
     printMatrix(cols, rows, b, nonZero);
+
+    delete[] a;
+    delete[] b;
 
     return 0;
 }

@@ -26,7 +26,7 @@ public:
         Seat* head = NULL;
         Seat* last = NULL;
         for (int i = 1; i <= 8; i++) {
-            Seat* newSeat = new Seat{i, rand() % 2, NULL, NULL};
+            Seat* newSeat = new Seat{i, rand() %2, NULL, NULL};
             if (!head) {
                 head = newSeat;
                 head->next = head->prev = head;

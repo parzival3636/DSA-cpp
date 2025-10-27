@@ -2,23 +2,20 @@
 #include <iomanip>
 using namespace std;
 
-int passCount = 0; // To count passes during Quick Sort
+int passCount = 0;
 
-// Swap two integers
 void swap_marks(int &a, int &b) {
     int temp = a;
     a = b;
     b = temp;
 }
 
-// Print array
 void printArray(int arr[], int n) {
     for (int i = 0; i < n; i++)
         cout << arr[i] << " ";
     cout << endl;
 }
 
-// Partition function for Quick Sort
 int partition(int arr[], int low, int high, int n) {
     int pivot = arr[high];
     int i = low - 1;
@@ -45,7 +42,6 @@ int partition(int arr[], int low, int high, int n) {
     return i + 1;
 }
 
-// Quick Sort
 void quickSort(int arr[], int low, int high, int n) {
     if (low < high) {
         int pi = partition(arr, low, high, n);
@@ -54,16 +50,14 @@ void quickSort(int arr[], int low, int high, int n) {
     }
 }
 
-// Divide & Conquer to find minimum
 int findMin(int arr[], int low, int high) {
-    if (low == high) return arr[low]; // Only one element
+    if (low == high) return arr[low];
     int mid = (low + high) / 2;
     int leftMin = findMin(arr, low, mid);
     int rightMin = findMin(arr, mid + 1, high);
     return (leftMin < rightMin) ? leftMin : rightMin;
 }
 
-// Divide & Conquer to find maximum
 int findMax(int arr[], int low, int high) {
     if (low == high) return arr[low];
     int mid = (low + high) / 2;
