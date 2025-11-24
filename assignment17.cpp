@@ -107,7 +107,6 @@ int main() {
     cout << "Sum: ";
     display(result);
 
-    // Free memory
     while(poly1) {
         Node* temp = poly1;
         poly1 = poly1->next;
