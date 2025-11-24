@@ -135,6 +135,12 @@ int main() {
 }
 ```
 
+
+### Output:
+<img width="345" height="725" alt="image" src="https://github.com/user-attachments/assets/d038aaf7-8286-4953-8383-9016d18c717b" />
+<img width="684" height="472" alt="image" src="https://github.com/user-attachments/assets/3ca870da-23b0-4c27-aad0-3f95ff2fb208" />
+
+
 ### Applications
 - Network routing, social network analysis.  
 - Solving puzzles and games modeled as graphs.  
