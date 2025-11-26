@@ -154,6 +154,9 @@ int main() {
 }
 
 ```
+<img width="279" height="603" alt="image" src="https://github.com/user-attachments/assets/ea136341-2094-466e-89f7-9f3711d1012d" />
+<img width="328" height="633" alt="image" src="https://github.com/user-attachments/assets/cc0586fc-4a19-4789-8828-471ad189289e" />
+
 ### Applications
 - Efficient and fast storage and retrieval of student records in educational management systems.  
 - Situations requiring average constant-time lookup in fixed-size data tables.  
