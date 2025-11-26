@@ -146,6 +146,7 @@ int main() {
     return 0;
 }
 ```
+<img width="269" height="766" alt="image" src="https://github.com/user-attachments/assets/86871e17-c7ba-4f3e-9a23-979fa5e3fa66" />
 
 ### Applications
 - Finding range boundaries in sorted data effectively.  
