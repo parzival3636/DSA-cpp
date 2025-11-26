@@ -38,6 +38,7 @@ Shortest path: 0 -> 1 -> 2 -> 4
 ```cpp
 #include <iostream>
 #include <queue>
+#include <limits>
 using namespace std;
 
 struct Edge {
@@ -47,31 +48,40 @@ struct Edge {
 
 int main() {
     int n, e;
-    cin >> n >> e;
+
+    cout << "Enter number of nodes: ";
+    cin >> n;
+
+    cout << "Enter number of edges: ";
+    cin >> e;
 
     Edge* adj[50];
     for (int i = 0; i < n; i++) adj[i] = NULL;
 
+    cout << "\nEnter edges in format (u v w):\n";
     for (int i = 0; i < e; i++) {
         int u, v, w;
         cin >> u >> v >> w;
+
         Edge* a = new Edge{v, w, adj[u]};
         adj[u] = a;
+
         Edge* b = new Edge{u, w, adj[v]};
-        adj[v] = b;
+        adj[v] = b;   // because graph is undirected
     }
 
     int src;
+    cout << "\nEnter source vertex: ";
     cin >> src;
 
     int dist[50], visited[50];
     for (int i = 0; i < n; i++) {
-        dist[i] = 1e9;
+        dist[i] = numeric_limits<int>::max();
         visited[i] = 0;
     }
 
     priority_queue<pair<int,int>, 
-        queue<pair<int,int>>, 
+        vector<pair<int,int>>, 
         greater<pair<int,int>>> pq;
 
     dist[src] = 0;
@@ -80,28 +90,37 @@ int main() {
     while (!pq.empty()) {
         int u = pq.top().second;
         pq.pop();
+
         if (visited[u]) continue;
         visited[u] = 1;
 
-        Edge* ptr = adj[u];
-        while (ptr) {
+        for (Edge* ptr = adj[u]; ptr != NULL; ptr = ptr->next) {
             int v = ptr->v;
             int w = ptr->w;
+
             if (dist[u] + w < dist[v]) {
                 dist[v] = dist[u] + w;
                 pq.push({dist[v], v});
             }
-            ptr = ptr->next;
         }
     }
 
-    for (int i = 0; i < n; i++)
-        cout << i << " : " << dist[i] << endl;
+    cout << "\nShortest distances from source " << src << ":\n";
+    for (int i = 0; i < n; i++) {
+        cout << "Node " << i << " → Distance = ";
+        if (dist[i] == numeric_limits<int>::max())
+            cout << "INF";
+        else
+            cout << dist[i];
+        cout << endl;
+    }
 
     return 0;
 }
 
 ```
+<img width="300" height="471" alt="image" src="https://github.com/user-attachments/assets/4307a2a7-7f06-4882-b6b5-e74fe88b54c8" />
+
 
 ### Applications
 - Network routing and navigation systems.  
