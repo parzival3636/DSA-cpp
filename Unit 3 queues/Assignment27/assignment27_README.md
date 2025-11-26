@@ -256,6 +256,10 @@ int main() {
     return 0;
 }
 ```
+<img width="586" height="698" alt="image" src="https://github.com/user-attachments/assets/aba7e158-858c-4cc7-9ab1-d8ee89a75439" />
+<img width="678" height="539" alt="image" src="https://github.com/user-attachments/assets/d8980d53-ec1e-4068-9a68-454812016db3" />
+
+<img width="461" height="266" alt="image" src="https://github.com/user-attachments/assets/1ac42832-0b58-4804-9210-da2df21b1a33" />
 
 ### Applications
 - Order management systems in eateries and fast-food chains.  
