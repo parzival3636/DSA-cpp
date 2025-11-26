@@ -172,6 +172,11 @@ int main() {
 
 ```
 
+### Output
+<img width="364" height="755" alt="image" src="https://github.com/user-attachments/assets/95311703-99f0-489f-9517-5fe4e7a706a0" />
+
+<img width="433" height="465" alt="image" src="https://github.com/user-attachments/assets/8064c919-428b-4a66-9bec-9c9f4534c66c" />
+
 ### Applications
 - Counting and height calculation aid in assessing tree balance and performance.  
 - Mirror image is used in graphical transformations and symmetry operations.  
