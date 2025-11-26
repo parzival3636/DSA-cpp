@@ -160,6 +160,9 @@ int main() {
 }
 
 ```
+
+<img width="300" height="805" alt="image" src="https://github.com/user-attachments/assets/78cd60bd-db66-46d3-bf79-755b8028ccc5" />
+
 ### Applications
 - Maintaining faculty or employee databases with quick retrievals.  
 - Useful in scenarios where average constant-time data access is required.  
