@@ -132,6 +132,7 @@ int main() {
 }
 
 ```
+<img width="392" height="391" alt="image" src="https://github.com/user-attachments/assets/2cdf8602-864c-4c6e-92a4-e9a7512e637b" />
 
 ### Applications  
 - Design of cost-effective networks such as telecommunication or electrical grids.  
