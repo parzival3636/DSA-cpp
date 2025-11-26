@@ -130,6 +130,9 @@ int main() {
 }
 ```
 
+<img width="402" height="598" alt="image" src="https://github.com/user-attachments/assets/49963843-9eb9-4ded-a61c-8e52bdc2d81f" />
+
+
 ### Applications
 - Employee management systems for quick record retrieval and reporting.  
 - Database indexing for sorted query results.  
