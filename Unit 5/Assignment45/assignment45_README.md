@@ -50,24 +50,27 @@ struct Node {
 class Graph {
     int V;
     Node** adj;
+
 public:
     Graph(int n) {
         V = n;
         adj = new Node*[V];
-        for (int i = 0; i < V; i++) adj[i] = NULL;
+        for (int i = 0; i < V; i++)
+            adj[i] = NULL;
     }
 
     void addEdge(int u, int v) {
         Node* temp = new Node{v, adj[u]};
         adj[u] = temp;
 
-        temp = new Node{u, adj[v]};
+        temp = new Node{u, adj[v]};  // Undirected graph
         adj[v] = temp;
     }
 
     void BFS(int start) {
         bool* visited = new bool[V];
-        for (int i = 0; i < V; i++) visited[i] = false;
+        for (int i = 0; i < V; i++)
+            visited[i] = false;
 
         int* q = new int[V];
         int front = 0, rear = 0;
@@ -75,9 +78,12 @@ public:
         visited[start] = true;
         q[rear++] = start;
 
+        cout << "BFS Traversal: ";
+
         while (front < rear) {
             int u = q[front++];
             cout << u << " ";
+
             Node* temp = adj[u];
             while (temp != NULL) {
                 if (!visited[temp->data]) {
@@ -87,30 +93,43 @@ public:
                 temp = temp->next;
             }
         }
+        cout << endl;
     }
 
     void DFSUtil(int u, bool visited[]) {
         visited[u] = true;
         cout << u << " ";
+
         Node* temp = adj[u];
         while (temp != NULL) {
-            if (!visited[temp->data]) DFSUtil(temp->data, visited);
+            if (!visited[temp->data])
+                DFSUtil(temp->data, visited);
             temp = temp->next;
         }
     }
 
     void DFS(int start) {
         bool* visited = new bool[V];
-        for (int i = 0; i < V; i++) visited[i] = false;
+        for (int i = 0; i < V; i++)
+            visited[i] = false;
+
+        cout << "DFS Traversal: ";
         DFSUtil(start, visited);
+        cout << endl;
     }
 };
 
 int main() {
     int V, E;
-    cin >> V >> E;
+    cout << "Enter number of vertices: ";
+    cin >> V;
+
+    cout << "Enter number of edges: ";
+    cin >> E;
+
     Graph g(V);
 
+    cout << "Enter edges (u v):" << endl;
     for (int i = 0; i < E; i++) {
         int u, v;
         cin >> u >> v;
@@ -118,15 +137,18 @@ int main() {
     }
 
     int start;
+    cout << "Enter starting vertex: ";
     cin >> start;
 
-    cout << "BFS: ";
+    cout << endl;
     g.BFS(start);
-    cout << "\nDFS: ";
     g.DFS(start);
+
+    return 0;
 }
 
 ```
+<img width="212" height="287" alt="image" src="https://github.com/user-attachments/assets/a6570d30-97dc-4e7f-b61a-a8eaaa171d5a" />
 
 ### Applications
 - Network routing, social network analysis, and connectivity checks.  
