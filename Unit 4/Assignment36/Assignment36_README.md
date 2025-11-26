@@ -117,3 +117,6 @@ int main() {
     return 0;
 }
 ```
+## Output:
+<img width="567" height="263" alt="image" src="https://github.com/user-attachments/assets/0ccb426f-73c3-44e0-89ac-6b524e4e18b9" />
+
