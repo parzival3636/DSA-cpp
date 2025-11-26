@@ -166,6 +166,10 @@ int main() {
 
 ```
 
+<img width="353" height="818" alt="image" src="https://github.com/user-attachments/assets/20b271f9-2698-4d51-9ec9-83b8208d37f0" />
+<img width="342" height="672" alt="image" src="https://github.com/user-attachments/assets/46e658ea-bfb0-4da2-961a-3b0d97f5b4f4" />
+
+
 ### Applications
 - Student record management systems.  
 - Any application requiring dynamic lists supporting flexible insertions and deletions.  
