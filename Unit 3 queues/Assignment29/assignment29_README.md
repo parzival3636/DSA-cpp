@@ -254,3 +254,8 @@ int main() {
     return 0;
 }
 ```
+<img width="438" height="789" alt="image" src="https://github.com/user-attachments/assets/0cf6053e-093f-4294-a3af-c1b1deabe262" />
+<img width="477" height="760" alt="image" src="https://github.com/user-attachments/assets/a9b63bfa-83b5-4a83-92d7-a46f6f39c737" />
+<img width="549" height="716" alt="image" src="https://github.com/user-attachments/assets/8cf01caa-9808-4931-a4ef-98dd804767ad" />
+<img width="435" height="825" alt="image" src="https://github.com/user-attachments/assets/bb5e1bdd-0401-459a-95e5-61c590d2e08d" />
+
