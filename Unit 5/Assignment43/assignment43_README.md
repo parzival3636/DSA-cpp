@@ -100,6 +100,9 @@ int main() {
 
 ```
 
+<img width="179" height="374" alt="image" src="https://github.com/user-attachments/assets/fefa39ff-d898-4137-8c32-77b3ff43b13a" />
+
+
 ### Applications
 - Network design for minimizing overall costs.  
 - Clustering and partitioning in data science and computer graphics.  
