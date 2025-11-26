@@ -54,6 +54,8 @@ int main() {
     return 0;
 }
 ```
+<img width="368" height="47" alt="image" src="https://github.com/user-attachments/assets/7ddd8c7f-de40-4568-9592-2473f417ff18" />
+
 
 ### Applications
 - Expression evaluation in calculators and compilers.  
