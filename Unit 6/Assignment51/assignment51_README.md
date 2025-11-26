@@ -94,6 +94,7 @@ int main() {
 }
 
 ```
+<img width="226" height="294" alt="image" src="https://github.com/user-attachments/assets/71aa73b9-9470-4fb5-86fe-d491696c7254" />
 
 ### Applications
 - Fast data retrieval in databases, caches, and symbol tables.  
