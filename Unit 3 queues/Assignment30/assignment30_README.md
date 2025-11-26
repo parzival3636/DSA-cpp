@@ -270,6 +270,11 @@ int main() {
     return 0;
 }
 ```
+<img width="471" height="688" alt="image" src="https://github.com/user-attachments/assets/aea058bb-4ef6-429f-bba8-6f677238a5fb" />
+<img width="457" height="550" alt="image" src="https://github.com/user-attachments/assets/a1e5d3a6-c8d1-4a56-8643-03aef64806be" />
+<img width="462" height="557" alt="image" src="https://github.com/user-attachments/assets/b9e8275f-500e-4f62-b176-a431dfe37cdd" />
+<img width="375" height="212" alt="image" src="https://github.com/user-attachments/assets/9d79b836-9ff7-40d2-9b99-6c1f5458ff2f" />
+
 
 ### Applications
 - Call center customer management ensuring fair call servicing.  
