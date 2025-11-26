@@ -170,3 +170,7 @@ int main() {
 }
 
 ```
+
+<img width="378" height="734" alt="image" src="https://github.com/user-attachments/assets/720f86b6-2e6b-4133-883c-b68c3202fb27" />
+
+<img width="422" height="612" alt="image" src="https://github.com/user-attachments/assets/788464d2-1fab-4302-94a8-6f96c888e5b5" />
