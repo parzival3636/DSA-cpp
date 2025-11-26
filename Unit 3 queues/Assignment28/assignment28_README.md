@@ -215,6 +215,9 @@ int main() {
     return 0;
 }
 ```
+<img width="448" height="607" alt="image" src="https://github.com/user-attachments/assets/4b3e9515-e08a-45db-9982-0c5f9a836d5e" />
+<img width="521" height="790" alt="image" src="https://github.com/user-attachments/assets/b24ffc1a-5e79-4352-9d67-0016043aa5a0" />
+<img width="421" height="459" alt="image" src="https://github.com/user-attachments/assets/f4899cb8-e803-4903-afbd-005544363635" />
 
 ### Applications
 - Managing customer queues in ticket counters, banks, or service centers.  
