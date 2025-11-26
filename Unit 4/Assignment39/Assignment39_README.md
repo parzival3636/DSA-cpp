@@ -154,6 +154,10 @@ int main() {
 }
 ```
 
+<img width="583" height="825" alt="image" src="https://github.com/user-attachments/assets/7b02cb5c-48bc-4242-a0cc-427da5dd25f7" />
+<img width="620" height="137" alt="image" src="https://github.com/user-attachments/assets/cab98508-1e36-4d32-86b1-d0a2258eff74" />
+
+
 ### Applications
 - Shop inventory with dynamic product addition and sorting.  
 - Food or pharma inventories requiring expiry tracking.  
