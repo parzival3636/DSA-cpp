@@ -66,6 +66,9 @@ int main() {
 }
 
 ```
+## Output:
+<img width="423" height="114" alt="image" src="https://github.com/user-attachments/assets/6e39e7e0-a000-44c5-8df0-eb58c0740dda" />
+
 
 ### Applications
 - Syntax checking in compilers and interpreters for programming languages.  
