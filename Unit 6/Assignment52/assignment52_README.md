@@ -118,3 +118,6 @@ int main() {
 }
 
 ```
+
+<img width="330" height="281" alt="image" src="https://github.com/user-attachments/assets/7333c116-6697-424c-bb85-16d8b7b0a2b5" />
+
