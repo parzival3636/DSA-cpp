@@ -103,14 +103,13 @@ int main() {
 
 //a-b*c-d/e+f
 ```
+<img width="540" height="311" alt="image" src="https://github.com/user-attachments/assets/e1f12d71-5e4b-4a51-830f-a3a8ec8eda9d" />
 
 ### Applications
 - Expression evaluation engines in calculators and compilers.  
 - Rearranging mathematical expressions for stack-based or postfix machines.  
 - Syntax parsing in programming language processing.
 
-This approach combines theoretical correctness with practical traceability for educational clarity in understanding infix to postfix conversions.
 
-The program outputs detailed stepwise operations, showing stack state and partial output to trace the whole conversion process for any valid infix expression.
 
 ***
