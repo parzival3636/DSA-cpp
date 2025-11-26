@@ -1,7 +1,36 @@
 # Assignment58
 
-## 📘 Description
-This program implements **assignment58** in C++.
+#  Employee Database Using Hash Table (Mid-Square Hash, Linear Probing)
+
+## Simulating an Employee Database with Mid-Square Hash Function
+
+This program simulates an employee database (can be adapted for faculty records as well) using a hash table. It uses the Mid-Square hash function to compute indices and uses linear probing for collision resolution.
+
+### Operations Implemented
+- **Insert Employee Record:**  
+  - Compute a hash index by squaring the key (employee ID), extracting the middle digits, and then taking modulo by the table size (Mid-Square method).  
+  - If the computed index is free, store the record there.  
+  - If occupied, apply linear probing to scan sequential slots (wrapping around) until a free slot is found.
+- **Search Employee Record:**  
+  - Recompute the same Mid-Square hash index for the employee ID.  
+  - Check the slot; if not found, linearly probe further until the record is found or an empty slot is encountered (indicating absence).  
+- **Display Hash Table:**  
+  - List all indices along with stored employee IDs, names, and departments for verification.
+
+### Key Concepts
+- **Mid-Square Hash Function:**  
+  - Square the key value (e.g., \(key^2\)).  
+  - Extract a suitable number of middle digits from the square.  
+  - Reduce it using modulo table size if needed to get a valid index.  
+- **Linear Probing:** Sequentially checks the next indices to resolve collisions, wrapping around at the end of the table.  
+- **Employee Record Fields:** Typically store ID, name, department, and possibly salary or designation.
+
+### Example Scenario
+- Table size: 10  
+- Employee ID: 123 → \(123^2 = 15129\); middle digits (e.g., “12”) → `12 % 10 = 2`, so index 2.  
+- If index 2 is occupied by another employee, linear probing attempts indices 3, 4, 5, etc., until a free one is found.  
+- Searching follows the same computed index and probe order.
+
 
 ## Code
 ```cpp
