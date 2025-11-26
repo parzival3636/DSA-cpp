@@ -124,6 +124,7 @@ int main() {
 }
 
 ```
+<img width="270" height="392" alt="image" src="https://github.com/user-attachments/assets/cb64462f-58b8-4c28-9b2f-bc0e390efe74" />
 
 ### Applications
 - Network cost minimization tasks in telecom, road, and utility networks.  
