@@ -111,6 +111,8 @@ int main() {
 }
 
 ```
+<img width="441" height="219" alt="image" src="https://github.com/user-attachments/assets/94d1b1b1-d568-44f9-9996-c16dc21baea1" />
+
 
 ### Applications
 - Preprocessing step in merge sort and other divide-and-conquer algorithms on linked lists.  
