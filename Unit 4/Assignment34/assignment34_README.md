@@ -270,3 +270,7 @@ int main() {
     return 0;
 }
 ```
+
+<img width="299" height="795" alt="image" src="https://github.com/user-attachments/assets/6d3eb5fa-f995-4106-94ca-d50bd6dd5ef6" />
+<img width="373" height="452" alt="image" src="https://github.com/user-attachments/assets/ed302689-02e5-4888-9ee0-bfde947e5dfc" />
+
