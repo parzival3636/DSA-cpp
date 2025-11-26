@@ -117,6 +117,7 @@ int main() {
     return 0;
 }
 ```
+<img width="358" height="245" alt="image" src="https://github.com/user-attachments/assets/5ba600ba-7baa-4fab-a6c1-66d57f102434" />
 
 ### Applications
 - Sorting linked lists where random access is not available.  
