@@ -117,6 +117,8 @@ int main() {
 }
 
 ```
+<img width="334" height="687" alt="image" src="https://github.com/user-attachments/assets/208bd9ec-b48c-472b-8871-d1a8ce87b90e" />
+<img width="284" height="287" alt="image" src="https://github.com/user-attachments/assets/e6e6b5ad-458f-412e-949a-a17394a9028a" />
 
 ### Time Complexity
 - **Push and Pop:** $$O(1)$$ for each stack operation, given direct index manipulation without resizing.  
