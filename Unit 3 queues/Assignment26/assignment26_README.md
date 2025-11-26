@@ -303,3 +303,6 @@ int main() {
     return 0;
 }
 ```
+<img width="472" height="740" alt="image" src="https://github.com/user-attachments/assets/c161f05d-f7fd-4ab5-949b-6d73b62b6580" />
+<img width="478" height="846" alt="image" src="https://github.com/user-attachments/assets/42299a40-f5bb-42a7-b7a2-577eecebd979" />
+<img width="532" height="640" alt="image" src="https://github.com/user-attachments/assets/08e91ab7-9202-4893-817f-d59d1a97d131" />
