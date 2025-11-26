@@ -292,3 +292,12 @@ int main() {
     return 0;
 }
 ```
+
+
+### Output:
+<img width="580" height="526" alt="image" src="https://github.com/user-attachments/assets/1db7fbb8-682b-45e4-a838-d3a6aca6b336" />
+
+<img width="413" height="728" alt="image" src="https://github.com/user-attachments/assets/6dba598c-a4a6-4e8a-824e-254faf55a1a7" />
+
+<img width="467" height="673" alt="image" src="https://github.com/user-attachments/assets/618c97f8-a2e8-46fe-a99f-1305ecd0eba5" />
+
