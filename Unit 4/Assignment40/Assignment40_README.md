@@ -206,3 +206,5 @@ int main() {
     return 0;
 }
 ```
+<img width="621" height="736" alt="image" src="https://github.com/user-attachments/assets/9cf4023c-0f00-4abc-81fe-15a68786b7d6" />
+<img width="598" height="371" alt="image" src="https://github.com/user-attachments/assets/359c630c-25d4-4bde-8197-8ae629f823fe" />
