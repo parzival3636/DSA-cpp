@@ -115,6 +115,9 @@ int main() {
 }
 
 ```
+<img width="328" height="646" alt="image" src="https://github.com/user-attachments/assets/75de1ee2-f34e-468b-93e3-136dad014c6c" />
+<img width="365" height="659" alt="image" src="https://github.com/user-attachments/assets/006aa96b-7770-455c-925a-f3886b68c833" />
+<img width="281" height="145" alt="image" src="https://github.com/user-attachments/assets/b0b73a0a-b66a-47ea-97cd-4f8328d7f885" />
 
 ### Applications
 - Real-time price tracking where recent values are accessed or undone frequently.  
