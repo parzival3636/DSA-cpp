@@ -120,6 +120,9 @@ int main() {
 
 ```
 
+<img width="323" height="515" alt="image" src="https://github.com/user-attachments/assets/fd714449-25e6-429c-af02-fcfc84190d30" />
+
+
 ### Applications
 - Road and network navigation systems.  
 - Optimal resource allocation and routing.  
