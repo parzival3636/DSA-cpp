@@ -163,3 +163,4 @@ int main() {
     }
 }
 ```
+<img width="291" height="800" alt="image" src="https://github.com/user-attachments/assets/f51c5f4e-67ae-4f0c-9c59-a75f4742b6d2" />
