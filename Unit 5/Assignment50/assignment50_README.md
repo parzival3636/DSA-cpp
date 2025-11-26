@@ -132,6 +132,7 @@ int main() {
 }
 
 ```
+<img width="276" height="424" alt="image" src="https://github.com/user-attachments/assets/e6ffe132-6c29-4eef-8369-576145e6a7fa" />
 
 ### Applications
 - Network routing and traffic navigation systems.  
